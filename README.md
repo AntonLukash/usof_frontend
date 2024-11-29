@@ -5,7 +5,6 @@
 > **USOF** is a forum platform inspired by Stack Overflow, designed for programmers and enthusiasts. It allows users to create accounts, post questions, comment, and like content. Administrators can manage content and users via an integrated AdminJS panel. This is the frontend for the web application, which provides functionalities like user registration, login, post creation, viewing posts, filtering content by category, interacting with other users through comments and likes, and more. The frontend interacts with the backend API to provide a smooth user experience, supporting features like email confirmation, post management, and user authentication.
 
 ## Table of Contents
-- [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Installation and Setup](#installation-and-setup)
 - [Frontend Features Overview](#frontend-features-overview)
@@ -13,6 +12,7 @@
 - [License](#license)
 
 ---
+
 ## Tech Stack
 - **React.js** — for building the user interface
 - **Redux** — for managing application state
