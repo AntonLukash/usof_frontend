@@ -21,7 +21,6 @@
 - **Tailwind CSS** — for styling and layout
 - **Font Awesome** — for icons
 - **React Icons** — for additional icons
-## Features
 
 ---
 
