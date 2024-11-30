@@ -1,0 +1,127 @@
+
+.post-preview {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-preview:hover {
+    transform: translateY(-3px);
+}
+
+/* Header Section */
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.post-author {
+    display: flex;
+    align-items: center;
+}
+
+.author-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.author-name {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Save Button */
+.save-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.2s;
+}
+
+.save-button.saved {
+    color: #333;
+}
+
+.save-button:hover {
+    color: #555;
+}
+
+/* Content Section */
+.post-content {
+    text-decoration: none;
+    color: #333;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.post-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+}
+
+.post-excerpt {
+    color: #666;
+    font-size: 14px;
+    margin-top: 5px;
+    line-height: 1.5;
+}
+
+/* Footer Section */
+.post-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #888;
+}
+
+.post-date {
+    color: #aaa;
+}
+
+/* Reaction Buttons */
+.reaction-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.reaction-button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #333;
+    display: flex;
+    align-items: center;
+    transition: color 0.2s;
+}
+
+.reaction-button.active {
+    color: #000; /* Darker color for active state */
+}
+
+.reaction-button svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.reaction-count {
+    font-size: 14px;
+    color: #555;
+}
